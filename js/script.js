@@ -22,6 +22,9 @@ calculate_btn.addEventListener('click', function(){
                 }
             }
         }
+        else {
+            return 11 - birth_date.getMonth() + 1;
+            }
     }
 
     function ageDay(){
